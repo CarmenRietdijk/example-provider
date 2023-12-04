@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '16'
       - name: Install
-        run: npm i
+        run: npm ci
       - name: Test
         run: GIT_BRANCH=${GITHUB_REF:11} make test
 

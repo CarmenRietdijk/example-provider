@@ -37,7 +37,7 @@ const stateHandlers = {
     ]);
   },
   "a product with ID 11 does not exist": () => {
-    controller.repository.products = new Map();
+    controller.repository.products = 0;
   },
 };
 
